@@ -1,8 +1,13 @@
 plugins {
+    id 'war'
     id 'org.springframework.boot' version '2.2.4.RELEASE'
     id 'io.spring.dependency-management' version '1.0.9.RELEASE'
     id 'java'
 }
+//or
+apply plugin: 'war'
+
+
 
 group = 'com.bthcpn'
 version = '0.0.1-SNAPSHOT'
